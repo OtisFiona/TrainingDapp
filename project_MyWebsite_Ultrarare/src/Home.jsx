@@ -20,7 +20,7 @@ const buttonContainerStyle = {
   justifyContent: "space-between",
 };
 
-export default function F12Main() {
+export default function Home() {
   return (
     <div style={{ padding: 20 }}>
       <h1 style={{ marginBottom: 20, fontSize: 20 }}>Ultrarare</h1>

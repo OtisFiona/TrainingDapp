@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, useRoutes } from 'react-router-dom';
 import './index.css';
-import F12Main from './F12Main';
+import Home from './Home';
 
 import Buy from './pages/Buy';
 import Create from './pages/Create';
@@ -12,7 +12,7 @@ import ProfileInventory from './pages/ProfileInventory';
 
 function AppRoutes() {
   const routes = useRoutes([
-    { path: '/', element: <F12Main /> },
+    { path: '/', element: <Home /> },
     { path: '/Buy', element: <Buy /> },
     { path: '/Create', element: <Create /> },
     { path: '/Detail', element: <Detail /> },
