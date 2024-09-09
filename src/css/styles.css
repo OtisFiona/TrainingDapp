@@ -1,0 +1,24 @@
+.bg-white {
+  @apply bg-[#FFFFFF];
+}
+
+.flex-col-center {
+  @apply flex flex-col items-center;
+}
+
+.flex-row-between {
+  @apply flex flex-row justify-between;
+}
+
+.text-14-semibold {
+  @apply font-['Inter'] font-semibold text-[14px] tracking-[-0.2px] leading-[1.429] text-[#6A6A6A];
+}
+
+.rounded-12 {
+  @apply rounded-[12px];
+}
+
+.box-sizing-border {
+  @apply box-sizing-border;
+}
+
